@@ -1,0 +1,21 @@
+{
+  "name": "campusconnect",
+  "version": "1.0.0",
+  "description": "CampusConnect - Smart Peer-to-Peer Campus Assistance & Issue Management Platform",
+  "scripts": {
+    "dev:server": "cd server && npm run dev",
+    "dev:client": "cd client && npm run dev",
+    "seed": "cd server && npm run seed",
+    "test:api": "cd server && npm run test:api"
+  },
+  "keywords": [
+    "campus",
+    "peer-to-peer",
+    "assistance",
+    "matching",
+    "issues",
+    "mern"
+  ],
+  "author": "Yashas Gowda",
+  "license": "MIT"
+}
