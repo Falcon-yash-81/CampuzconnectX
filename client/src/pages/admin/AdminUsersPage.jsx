@@ -159,7 +159,7 @@ export const AdminUsersPage = () => {
                     </td>
                     <td className="px-4 py-4">
                       <span
-                        className={`inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-bold border ${
+                        className={`inline-flex items-center px-2.5 py-0.5 rounded-lg text-xs font-bold border ${
                           u.role === 'ADMIN'
                             ? 'bg-purple-500/20 text-purple-300 border-purple-500/40'
                             : 'bg-slate-800 text-slate-300 border-slate-700'

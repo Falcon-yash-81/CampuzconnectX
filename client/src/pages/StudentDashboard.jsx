@@ -101,10 +101,9 @@ export const StudentDashboard = () => {
         <div className="relative z-10 flex flex-col lg:flex-row lg:items-center justify-between gap-8">
           {/* Welcome Text */}
           <div className="space-y-3 max-w-2xl">
-            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-indigo-500/15 border border-indigo-500/30 text-indigo-300 text-xs font-bold tracking-wider uppercase font-heading">
-              <Sparkles className="w-3.5 h-3.5 text-cyan-400 animate-pulse" />
-              <span>{user?.department} • {user?.year}</span>
-            </div>
+            <p className="text-xs font-semibold text-slate-400 uppercase tracking-wider">
+              {user?.department} • {user?.year}
+            </p>
 
             <h1 className="text-3xl sm:text-5xl font-extrabold tracking-tight text-white font-heading">
               Welcome back, <span className="text-gradient-brand">{user?.name}</span>
@@ -438,7 +437,7 @@ export const StudentDashboard = () => {
                 >
                   <div className="flex items-center justify-between">
                     <div className="font-bold text-sm text-white">{exchange.student?.name}</div>
-                    <span className="px-2.5 py-0.5 rounded-full bg-emerald-500/20 text-emerald-300 text-[10px] font-extrabold border border-emerald-500/40">
+                    <span className="px-2.5 py-0.5 rounded-lg bg-emerald-500/20 text-emerald-300 text-[10px] font-extrabold border border-emerald-500/40">
                       Mutual Fit
                     </span>
                   </div>

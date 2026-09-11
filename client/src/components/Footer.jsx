@@ -15,7 +15,7 @@ export const Footer = () => {
               <span className="text-base font-bold text-white tracking-tight">CampusConnect</span>
             </div>
             <p className="text-sm text-slate-400 max-w-sm mb-4 leading-relaxed">
-              Connect. Help. Resolve. Together. The all-in-one platform uniting student peer assistance, smart skill matching, and transparent campus issue resolution.
+              The all-in-one platform uniting student peer assistance, smart skill matching, and transparent campus issue resolution.
             </p>
             <div className="flex items-center gap-3 text-xs text-slate-500">
               <span className="inline-flex items-center gap-1">

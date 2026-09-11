@@ -118,7 +118,7 @@ export const StatusBadge = ({ status, size = 'md', showPulse = true }) => {
 
   return (
     <span
-      className={`inline-flex items-center rounded-full border ${config.bg} ${sizeClasses} transition-all`}
+      className={`inline-flex items-center rounded-lg border ${config.bg} ${sizeClasses} transition-all`}
     >
       {showPulse && (
         <span className={`w-1.5 h-1.5 rounded-full ${config.dot}`} />

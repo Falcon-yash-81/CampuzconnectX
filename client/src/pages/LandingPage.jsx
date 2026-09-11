@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
 import QuickLoginBanner from '../components/QuickLoginBanner';
 import {
-  Sparkles,
   GraduationCap,
   Users,
   AlertTriangle,
@@ -13,7 +12,6 @@ import {
   Star,
   Award,
   Shield,
-  Zap,
   Clock,
   Compass,
   Repeat,
@@ -103,9 +101,6 @@ export const LandingPage = () => {
       <section className="py-20 bg-void-900/60 border-y border-white/10 relative">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-3xl mx-auto mb-16 space-y-2">
-            <div className="text-xs font-extrabold uppercase tracking-wider text-cyan-400 font-heading">
-              Two Critical Campus Needs • One Central Platform
-            </div>
             <h2 className="text-3xl sm:text-4xl font-extrabold text-white font-heading">
               Why Institutions Rely on CampusConnect
             </h2>
@@ -207,11 +202,6 @@ export const LandingPage = () => {
           <div className="glass-panel-elevated p-8 sm:p-14 rounded-3xl border border-white/10 relative overflow-hidden shadow-2xl">
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
               <div className="lg:col-span-7 space-y-6">
-                <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-500/15 text-emerald-400 text-xs font-bold border border-emerald-500/30 font-heading">
-                  <Zap className="w-3.5 h-3.5" /> 
-                  <span>Smart Matching Engine</span>
-                </div>
-
                 <h3 className="text-2xl sm:text-4xl font-extrabold text-white leading-tight font-heading">
                   "Instead of simply asking who can help, CampusConnect identifies who is most likely to help."
                 </h3>
@@ -247,7 +237,7 @@ export const LandingPage = () => {
                     <span className="text-xs font-bold text-slate-400 uppercase tracking-wider">
                       Live Match Simulation
                     </span>
-                    <span className="px-2.5 py-0.5 rounded-full bg-emerald-500/20 text-emerald-300 text-[11px] font-extrabold border border-emerald-500/40 uppercase tracking-wider">
+                    <span className="px-2.5 py-0.5 rounded-lg bg-emerald-500/20 text-emerald-300 text-[11px] font-extrabold border border-emerald-500/40 uppercase tracking-wider">
                       Top Match: 94%
                     </span>
                   </div>

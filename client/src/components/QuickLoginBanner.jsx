@@ -35,7 +35,7 @@ export const QuickLoginBanner = ({ compact = false }) => {
           </div>
           <span>Interactive Demo Persona Dock</span>
         </div>
-        <span className="text-[11px] text-slate-400 font-medium px-2 py-0.5 rounded-full bg-slate-900 border border-slate-800">
+        <span className="text-[11px] text-slate-400 font-medium">
           Click to Switch Role Instantly
         </span>
       </div>

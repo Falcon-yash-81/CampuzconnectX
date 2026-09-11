@@ -167,7 +167,7 @@ export const SkillDirectoryPage = () => {
                         </p>
                       </div>
                     </div>
-                    <span className="px-3 py-1 rounded-full bg-emerald-500/20 text-emerald-300 font-bold text-xs border border-emerald-500/40">
+                    <span className="px-3 py-1 rounded-lg bg-emerald-500/20 text-emerald-300 font-bold text-xs border border-emerald-500/40">
                       Mutual Fit
                     </span>
                   </div>

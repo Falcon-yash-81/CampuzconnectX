@@ -118,7 +118,7 @@ export const ProfilePage = () => {
               </p>
               <div className="flex items-center gap-3 mt-1 text-xs">
                 <span className="text-slate-400">{user?.email}</span>
-                <span className="px-2 py-0.5 rounded-full bg-slate-800 text-slate-300 font-semibold text-[10px] border border-slate-700">
+                <span className="px-2 py-0.5 rounded-md bg-slate-800 text-slate-300 font-semibold text-[10px] border border-slate-700">
                   {user?.role}
                 </span>
               </div>

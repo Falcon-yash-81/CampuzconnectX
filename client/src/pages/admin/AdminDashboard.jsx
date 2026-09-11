@@ -4,7 +4,6 @@ import { adminApi } from '../../services/api';
 import StatusBadge from '../../components/StatusBadge';
 import UrgencyBadge from '../../components/UrgencyBadge';
 import {
-  ShieldCheck,
   Users,
   AlertTriangle,
   HelpCircle,
@@ -55,10 +54,6 @@ export const AdminDashboard = () => {
       {/* Header */}
       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
         <div>
-          <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-purple-500/15 text-purple-300 text-xs font-bold mb-2 border border-purple-500/30 font-heading">
-            <ShieldCheck className="w-3.5 h-3.5" />
-            <span>Campus Administrator Authority</span>
-          </div>
           <h1 className="text-3xl sm:text-4xl font-extrabold text-white tracking-tight font-heading">
             Executive Campus Triage & Operations
           </h1>

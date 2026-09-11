@@ -22,7 +22,6 @@ import {
   Check,
   AlertCircle,
   GitPullRequest,
-  Zap,
 } from 'lucide-react';
 
 export const HelpRequestDetailPage = () => {
@@ -238,10 +237,6 @@ export const HelpRequestDetailPage = () => {
           <div className="glass-panel-elevated p-6 sm:p-8 rounded-3xl border border-indigo-500/30 relative shadow-2xl">
             <div className="flex items-center justify-between pb-4 border-b border-slate-800 mb-6 flex-wrap gap-2">
               <div>
-                <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-emerald-500/15 text-emerald-400 text-xs font-bold border border-emerald-500/30 mb-1 font-heading">
-                  <Zap className="w-3.5 h-3.5" />
-                  <span>Smart Matching Engine</span>
-                </div>
                 <h2 className="text-xl font-extrabold text-white tracking-tight font-heading">
                   Recommended Student Mentors
                 </h2>
@@ -302,7 +297,7 @@ export const HelpRequestDetailPage = () => {
                                 {student.name}
                               </h4>
                               {isTopMatch && (
-                                <span className="px-2.5 py-0.5 rounded-full bg-emerald-500/20 text-emerald-300 text-[10px] font-extrabold border border-emerald-500/40 uppercase tracking-wider">
+                                <span className="px-2.5 py-0.5 rounded-lg bg-emerald-500/20 text-emerald-300 text-[10px] font-extrabold border border-emerald-500/40 uppercase tracking-wider">
                                   Top Match
                                 </span>
                               )}

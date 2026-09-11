@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
-import { UserPlus, Mail, Lock, User, GraduationCap, Calendar, Loader2, Sparkles } from 'lucide-react';
+import { UserPlus, Mail, Lock, User, GraduationCap, Calendar, Loader2 } from 'lucide-react';
 
 export const RegisterPage = () => {
   const [formData, setFormData] = useState({
@@ -47,10 +47,6 @@ export const RegisterPage = () => {
       <div className="max-w-xl w-full space-y-6">
         {/* Header */}
         <div className="text-center">
-          <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-indigo-500/10 text-indigo-400 text-xs font-semibold mb-3 border border-indigo-500/20">
-            <Sparkles className="w-3 h-3" />
-            <span>Join CampusConnect</span>
-          </div>
           <h2 className="text-3xl font-extrabold text-white tracking-tight">
             Create your student account
           </h2>

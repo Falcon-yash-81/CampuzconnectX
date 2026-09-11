@@ -52,9 +52,6 @@ export const Navbar = () => {
                 <span className="text-xl font-extrabold tracking-tight font-heading bg-gradient-to-r from-white via-slate-100 to-indigo-300 bg-clip-text text-transparent">
                   CampusConnect
                 </span>
-                <div className="hidden sm:flex items-center gap-1.5 text-[10px] text-slate-400 font-semibold tracking-wider uppercase -mt-0.5">
-                  <span className="text-cyan-400 font-bold">●</span> Peer Help & Issue Hub
-                </div>
               </div>
             </Link>
 

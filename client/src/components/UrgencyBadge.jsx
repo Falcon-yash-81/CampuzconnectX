@@ -40,7 +40,7 @@ export const UrgencyBadge = ({ urgency, size = 'md' }) => {
 
   return (
     <span
-      className={`inline-flex items-center rounded-full border ${config.bg} ${sizeClasses} transition-all`}
+      className={`inline-flex items-center rounded-lg border ${config.bg} ${sizeClasses} transition-all`}
     >
       <Icon className={size === 'sm' ? 'w-3 h-3' : 'w-3.5 h-3.5'} />
       <span>{config.label}</span>
