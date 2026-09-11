@@ -32,12 +32,6 @@ export const LandingPage = () => {
         <div className="absolute top-1/3 right-10 w-[450px] h-[300px] bg-purple-600/15 blur-[120px] rounded-full pointer-events-none -z-10" />
 
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          {/* Tagline Pill */}
-          <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-indigo-500/30 bg-indigo-500/10 text-indigo-300 text-xs font-bold font-heading mb-8 shadow-glow-sm">
-            <Sparkles className="w-4 h-4 text-cyan-400 animate-pulse" />
-            <span>Connect. Help. Resolve. Together.</span>
-          </div>
-
           <h1 className="text-4xl sm:text-6xl lg:text-7xl font-extrabold tracking-tight text-white mb-6 leading-[1.15] font-heading">
             The Smart Peer-to-Peer <br />
             <span className="text-gradient-brand">
